@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici 1</title>
+    <link href="ex1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- header defineix una zona a dins del body, sempre a la part
+    superior-->
+    <header>
+        <h1 id="tit">GIMNÀS</h1>
+        <h2 id="tit">GIMSAL</h2>
+        <!-- definim un navegador, com si fora una llista per ara
+        les referencies no apunten enlloc-->
+        <nav id="nav">
+        <li><a href="#">Inici</a></li>
+        <li><a href="#">Horaris</a></li>
+        <li><a href="#">Serveis</a></li>
+        <li><a href="#">Contacte</a></li>
+        </nav>
+        </header>
+        <!-- deifnim una nova etiqueta section (similar al div)-->
+        <section>
+        <!-- dins d'una secció podem definir diferents articles-->
+            <article class="casalloguer">
+                <h1>Preus</h1>
+                <a href="#">Ampliar informació</a>
+                </article>
+                    <article class="casalloguer">
+                    <h1>Mensual</h1>
+                    <a href="#">Ampliar informació</a>
+                    </article>
+                    <article class="casalloguer">
+                    <h1>Trimestral</h1>
+                    <a href="#">Ampliar informació</a>
+                    </article>
+                    <article class="casalloguer">
+                    <h1>Semestral</h1>
+                    <a href="#">Ampliar informació</a>
+            </article>
+            <video controls class="casalloguer">
+                <source src="SampleVideo_1280x720_1mb.mp4"/>
+            </video>
+            <form method="post" action="https://result.php">
+                <br>
+                <input type="text" />
+                <br>
+                <input type="checkbox"/>
+                <input type="button" value="pulsar"/>
+                <br>
+                <select>
+                <option>opcio 1</option>
+                <option>opcio 2</option>
+                </select>
+                <textarea>àrea de text</textarea>
+                <input class="btn" type="button" value = "enviar">
+            </form>
+
+        </section>
+        <aside>
+            <!-- indica elements relacionats pero no sempre
+            necessaris-->
+            <nav>
+                <h1>Links relacionats</h1>
+                <ul>
+                    <li><a
+                        href="http://science.nasa.gov/astrophysics/">Gimsal Original
+                    </a></li>
+                    <li><a
+                        href="http://www-astro.physics.ox.ac.uk/">Mès Gimnàs
+                    </a></li>
+                    <li><a href="http://aston.blogejemplo.com/">Hola
+                    </a></li>
+                </ul>
+            </nav>
+        </aside>
+            <!-- footer sempre anirà al final de la pàgina-->
+        <footer>
+            &copy;2023 EL meu Gimnàs
+            <!-- &copy és una de les moltes entitats que es poden fer
+            servir -->
+        </footer>
+</body>
+</html>

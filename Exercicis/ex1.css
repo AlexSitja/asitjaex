@@ -1,0 +1,67 @@
+/* això és un comentari en css */
+/* a tots els elements de tipus link (a) se'ls aplicarà el que hi ha
+dins el parèntesis
+en aquest cas es posaran en color cyan */
+a {
+    color:cyan;
+    }
+    /* com referenciar a un identificador */
+    #tit {
+    color: rgb(255, 0, 102);
+    }
+    /* podem fer que els elements li tinguin un determinat color, marge
+    exterior i interior (margin i padding)*/
+    .casalloguer {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+    background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    opacity: 0.6;		
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(109, 58, 58);
+
+
+    }
+    #nav{
+    background-color: rgb(194, 192, 255);
+    color: blue;
+    border: 2px solid rgb(37, 169, 240);
+    margin: 20px;
+    padding: 20px;
+    }
+    .btn {
+        background: #3498db;
+        background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+        background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+        background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+        background-image: -o-linear-gradient(top, #3498db, #2980b9);
+        background-image: linear-gradient(to bottom, #3498db, #2980b9);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 3px;
+        margin: 30px;
+        }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+      
+ 

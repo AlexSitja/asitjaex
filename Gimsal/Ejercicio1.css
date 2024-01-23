@@ -1,0 +1,154 @@
+#body{
+  background-color: greenyellow;
+  margin: 0;
+}
+#foto{
+  width: 100%;
+  background-color: black;
+}
+
+#imagen{
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+#texto{
+  color: green;
+  text-align: center;
+  margin-left: 9.5%;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+#texto:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+#gimsal{
+  margin-left: 9%;
+}
+
+#gimsal:hover{
+    width: 270px;
+}
+
+#cajas{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#slogan{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: initial;
+  margin-top: 50px;
+}
+
+#slogan:hover{
+  color: green;
+}
+
+#caja1{
+  border: solid 2px black;
+  width: 30%;
+  height: 400px;
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: 32px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#caja2{
+  border: solid 2px black;
+  width: 30%;
+  height: 400px;
+  margin-top: 50px;
+  display: inline-block;
+  margin-left: 32px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#producte{
+  width: 50%;
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+#producte:hover{
+  width: 53%;
+}
+
+#precio{
+  font-size: 20px;
+  margin-left: 50%;
+  font-weight: bold;
+}
+
+#precio:hover{
+  color: orange;
+  text-decoration: underline;
+}
+
+#descripcio{
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}
+
+#creapure:hover{
+  color: rgb(120, 194, 10);
+  text-decoration: underline;
+}
+
+#form{
+  width: 25%;
+  margin-left: 37.5%;
+  height: 300px;
+  background-color: rgb(235, 233, 233);
+  margin-top: 60px;
+  border-radius: 30px;
+  text-align: center;
+  border: solid 3px black;
+}
+
+#form:hover{
+  width: 30%;
+  margin-left: 35%;
+}
+
+#formu{
+  display: inline-block;
+}
+
+#footer{
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+}
+
+#copy{
+  color: black;
+  margin-left: 1%;
+}
+
+#red{
+  margin-left: 64%;
+  text-decoration: none;
+}
+#rei{
+  width: 2.5%;
+}
+#rei:hover{
+  width: 3%;
+}
+#red2{
+  margin-left: 2%;
+  text-decoration: none;
+}
