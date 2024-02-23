@@ -1,0 +1,174 @@
+#header{
+    height: 300px;
+    width: 100%;
+}
+#viladoms{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+#img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#body{
+    background-color: antiquewhite;
+}
+#historia{
+    column-count: 3;
+    column-gap: 5px;
+    column-rule-style: solid;
+    text-align: center;
+    margin-top: 50px;
+}
+#text{
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: monospace;
+}
+#videos{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+}
+#video{
+    height: 100%;
+    width: 30%;
+}
+#video1{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid red 2px;
+}
+#video1:hover{
+    border:solid red 3px;
+}
+#foto{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid green 2px;
+}
+#foto:hover{
+    border: solid green 3px;
+}
+
+#enl{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+#enllaç{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+
+}
+#foto1{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid blue 2px;
+}
+
+#foto1:hover{
+    border: solid blue 3px;
+}
+
+#maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 45px;
+}
+#copy{
+    color: white;
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(96, 69, 3);
+    margin-top: 60px;
+}
+#red{
+    margin-left: 58%;
+    text-decoration: none;
+  }
+#rei{
+    width: 2.5%;
+  }
+#red2{
+    margin-left: 2%;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 576px){
+    #historia{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #videos{
+        flex-direction: column;
+        margin-top: 50px;
+        height: 1000px;
+    }
+    #video{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    #enllaç{
+        flex-direction: column;
+        height: 700px;
+    } 
+    #red{
+        display: none;
+    }
+    #red2{
+        display: none;
+    } 
+    #footer{
+        padding-top: 22px;
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 992px) and (min-width: 576px) {
+    #historia{
+        column-count: 2;
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #videos{
+        flex-direction: column;
+        margin-top: 50px;
+        height: 1500px;
+    }
+    #video{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    #enllaç{
+        flex-direction: column;
+        height: 900px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #red{
+        margin-left: 40%;
+    }
+
+    
+  }
