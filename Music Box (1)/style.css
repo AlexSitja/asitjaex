@@ -1,0 +1,116 @@
+/* Estilos para el encabezado */
+#header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+#title{
+    margin-bottom: 10px;
+    font-size: 100px;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+#palabra{
+    color: #ffcc00;
+   
+}
+
+
+
+
+#imagenes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#imagenes div {
+    text-align: center;
+}
+
+#imagenes img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las secciones */
+
+
+#comp{
+    margin-top: 100px;
+}
+
+#componentes{
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#cantante{
+    text-align: center;
+    font-size: 20px;
+}
+
+#titulo {
+    color: #333;
+    font-size: 24px;
+}
+
+section{
+    margin-top: 100px;
+}
+
+#tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabla th, #tabla td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#tabla th {
+    background-color: #333;
+    color: #ffcc00 ;
+}
+
+
+#videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#map {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#map iframe {
+    border: none; 
+    width: 100%;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+  
+  
